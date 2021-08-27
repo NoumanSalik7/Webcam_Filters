@@ -1,0 +1,73 @@
+{
+  "$schema": "https://aka.ms/codetour-schema",
+  "title": "Trial",
+  "steps": [
+    {
+      "file": "scripts.js",
+      "description": "Variables required for the code.\n## Variables:\n* video,\n* canvas,\n* ctx,\n* strip,\n* snap.\n",
+      "line": 5,
+      "selection": {
+        "start": {
+          "line": 1,
+          "character": 1
+        },
+        "end": {
+          "line": 5,
+          "character": 46
+        }
+      },
+      "title": "Variables"
+    },
+    {
+      "file": "scripts.js",
+      "description": "## Function getVideo:\nThis function gets permission from the browser and returns error if the permission is denied. It returns a Promise that resolves to a MediaStream object. If the user denies permission, or matching media is not available, then the promise is rejected with `OH NO!!!`",
+      "line": 7,
+      "selection": {
+        "start": {
+          "line": 17,
+          "character": 21
+        },
+        "end": {
+          "line": 17,
+          "character": 31
+        }
+      }
+    },
+    {
+      "file": "scripts.js",
+      "description": "## Function paintToCanvas:\nThis function helps adjust the video-track to the canvas.",
+      "line": 21
+    },
+    {
+      "file": "scripts.js",
+      "description": "## Function redEffect:\nThis function is used to get styling effects for our filters.",
+      "line": 50
+    },
+    {
+      "file": "scripts.js",
+      "description": "This function captures multiple photos from the video source and plays the sound snap.mp3 after each capture.\n```javascript\nsnap.currentTime = 0;\n  snap.play();\n  ```",
+      "line": 37,
+      "selection": {
+        "start": {
+          "line": 39,
+          "character": 3
+        },
+        "end": {
+          "line": 40,
+          "character": 15
+        }
+      }
+    },
+    {
+      "file": "scripts.js",
+      "description": "## Function greenScreen:\nThis function is used to get styling effects for our filters.",
+      "line": 68
+    },
+    {
+      "file": "scripts.js",
+      "description": "The canplay event is fired when the user agent can play the media.",
+      "line": 97
+    }
+  ],
+  "ref": "main"
+}
