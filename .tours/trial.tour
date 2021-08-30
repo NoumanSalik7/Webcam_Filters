@@ -56,7 +56,8 @@
           "line": 40,
           "character": 15
         }
-      }
+      },
+      "title": "Function takePhoto"
     },
     {
       "file": "scripts.js",
